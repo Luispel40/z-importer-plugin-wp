@@ -1,0 +1,99 @@
+/* Container */
+.wrap.html-zip-importer {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background: #fff;
+    padding: 20px;
+}
+
+/* Tabs */
+.wrap.html-zip-importer .tabs {
+    border-bottom: 3px solid #f7931e;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.wrap.html-zip-importer .tab-button {
+    background: transparent;
+    border: none;
+    padding: 10px 22px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333333;
+    border-bottom: 3px solid transparent;
+    transition: all 0.18s ease;
+    font-size: 15px;
+    border-radius: 4px 4px 0 0;
+}
+
+.wrap.html-zip-importer .tab-button:hover {
+    color: #29abe2;
+}
+
+.wrap.html-zip-importer .tab-button.active {
+    color: #fff;
+    background: #f7931e;
+    border-bottom-color: #f7931e;
+    font-weight: 700;
+}
+
+/* Conteúdos das abas */
+.wrap.html-zip-importer .tab-content {
+    display: none;
+    padding: 18px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    border-radius: 0 6px 6px 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.wrap.html-zip-importer .tab-content.active {
+    display: block;
+}
+
+/* Botões do formulário */
+.wrap.html-zip-importer .button-primary {
+    background: #29abe2;
+    color: #fff;
+    border: 1px solid #29abe2;
+    padding: 8px 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.wrap.html-zip-importer .button-primary:hover {
+    background: #2388b5;
+    border-color: #2388b5;
+}
+
+.wrap.html-zip-importer .button-secondary {
+    background: #f7931e;
+    color: #fff;
+    border: 1px solid #f7931e;
+    padding: 8px 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.wrap.html-zip-importer .button-secondary:hover {
+    background: #d77c16;
+    border-color: #d77c16;
+}
+
+/* Notices */
+.wrap.html-zip-importer .notice {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.wrap.html-zip-importer .notice.notice-error {
+    background: #f44336;
+    color: #fff;
+}
+.wrap.html-zip-importer .notice.notice-success {
+    background: #4caf50;
+    color: #fff;
+}
