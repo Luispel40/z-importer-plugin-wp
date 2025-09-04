@@ -10,4 +10,4 @@ if (have_posts()) :
     endwhile;
 endif;
 
-get_footer();
+// get_footer();
