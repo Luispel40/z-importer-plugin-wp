@@ -3,7 +3,7 @@
 /**
  * Plugin Name: z-importer
  * Description: Importa um arquivo ZIP com HTML/CSS/JS e cria uma página no WordPress que exibe esse conteúdo diretamente.
- * Version: 1.0
+ * Version: 1.1
  * Author: alpha web
  */
 
